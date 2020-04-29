@@ -2,6 +2,30 @@
   text-align: center;
 }
 
+.myClass {
+  background-color: white;
+  color: red;
+}
+.myClass a > ul > li:hover {
+  background-color: pink;
+}
+
+/* Active tab */
+.myClass a > ul > li.active,
+.myClass a > ul > li.active:hover,
+.myClass a > ul > li.active:focus {
+  background-color: red;
+  color: white;
+}
+
+/* Disabled tab */
+.myClass a > ul > li.disabled{
+  background-color: lightgray;
+  color: darkgray;
+}
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
